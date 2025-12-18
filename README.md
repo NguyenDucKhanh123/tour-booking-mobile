@@ -71,6 +71,7 @@ The backend provides APIs for authentication, tour data, and booking management,
 
 ---
 
+```
 ## Project Structure
 TravelApp/
 │
@@ -96,6 +97,7 @@ TravelApp/
 │   └── .gitignore
 │
 └── README.md
+```
 
 ---
 
