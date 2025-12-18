@@ -113,45 +113,47 @@ TravelApp/
 ### Backend Setup
 
 1. Navigate to the backend folder:
-```bash
-cd BE
+   ```bash
+   cd BE
+Install dependencies:
 
-2. Install dependencies:
-```bash
+bash
 npm install
+Configure environment variables: Create a .env file in the BE folder with the following content:
 
-3. Configure environment variables:
-Create a .env file in the BE folder:
+env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=travel_app
 JWT_SECRET=your_secret_key
 PORT=3000
+Start the backend server:
 
-4. Start the backend server:
+bash
 npm start
-Backend will run at:
-http://localhost:3000
-### Frontend Setup
-### Frontend Setup
+Backend will run at: http://localhost:3000
 
-### Frontend Setup
+Frontend Setup
+Open a new terminal and navigate to the frontend folder:
 
-1. Open a new terminal and navigate to the frontend folder:
-```bash
+bash
 cd FE
-2. Install dependencies:
+Install dependencies:
+
+bash
 npm install
-3. Start the React Native app:
+Start the React Native app:
+
+bash
 npm start
-4. Run on emulator or device:
+Run on emulator or device:
+
+bash
 npm run android
 # or
 npm run ios
-
 Usage
-
 Start the backend server first.
 
 Launch the mobile app.
@@ -163,7 +165,6 @@ Browse tours and book travel packages.
 Manage bookings via the mobile interface.
 
 Notes
-
 Make sure MySQL is running before starting the backend.
 
 Do not push node_modules or .env files to GitHub.
@@ -173,14 +174,9 @@ Backend and frontend are separated for easier maintenance.
 This project is intended for learning and demonstration purposes.
 
 Contact
-
 For questions or collaboration, please contact:
 
-Nguyen Duc Khanh
-GitHub: https://github.com/NguyenDucKhanh123
-
-Email: khanh.nd11246@sinhvien.hoasen.edu.vn
-
+Nguyen Duc Khanh GitHub: NguyenDucKhanh123 Email: khanh.nd11246@sinhvien.hoasen.edu.vn
 
 
 
